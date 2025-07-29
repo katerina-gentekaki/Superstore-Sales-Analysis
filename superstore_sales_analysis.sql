@@ -66,8 +66,3 @@ SELECT AVG(discount) as avg_discount,category
 FROM sales_analysis
 GROUP BY category
 ORDER BY avg_discount DESC;
-
-SELECT SUM(sales) as total_sales, state 
-FROM sales_analysis
-GROUP BY state
-ORDER BY total_sales DESC;
