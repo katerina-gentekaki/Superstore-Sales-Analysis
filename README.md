@@ -14,7 +14,7 @@ A Python project analyzing sales, profit, and customer trends from Superstore's 
 
 ## 🧮 Part 1: Superstore Sales Analysis Using SQL
 
-### 📝 Business Questions & Goals
+### 📝 Business Questions 
 
 1. **Total Sales by Region**  
    _What is the total sales amount for each region?_
