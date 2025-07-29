@@ -2,18 +2,19 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns 
-import plotly.express as px
 
+# Load the dataset
 df = pd.read_csv(r'C:\Users\User\Desktop\Github projects\superstore\Sample - Superstore.csv', encoding='ISO-8859-1')
     
 print(df.head())
-df.info()
 
 # Check for missing values
 print("Missing Data:\n", df.isnull().sum())
 
 # Check the summary statistics
-print("\nSummary Statistics:\n", df.describe())
+print("\nSummary Statistics:\n", df.describe()
+print("\nSummary Info:\n", df.info()
+
 
 # Convert Order Date and Ship Date to datetime format
 df['Order Date'] = pd.to_datetime(df['Order Date'], format='%m/%d/%Y')
@@ -106,7 +107,7 @@ monthly_sales = df.groupby('Month_Year')['Sales'].sum().reset_index()
 # Format the month for labeling
 monthly_sales['MonthFormatted'] = monthly_sales['Month_Year'].dt.strftime('%b %Y')
 
-#Plot
+#Plot 
 plt.figure(figsize=(15, 6))
 plt.plot(monthly_sales['MonthFormatted'], monthly_sales['Sales'], marker='o')
 plt.xticks(rotation=45)
