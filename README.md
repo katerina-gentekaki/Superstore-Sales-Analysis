@@ -10,9 +10,15 @@ Source: [Kaggle / Provided Superstore Sample Data]
 Encoding: ISO-8859-1
 
 
+
 Part 1: Superstore Sales Analysis using SQL
 
+
+
 📝 Business Questions & Goals
+
+
+
 
 ✉ Business Question 1 – Total Sales by Region
 
@@ -47,9 +53,14 @@ Which customer segment placed the most orders?
 What is the average discount given per product category?
 
 
+
 Part 2: Superstore Sales Analysis and Visualization using Python
 
+
+
 ✅Libraries: Pandas, Matplotlib, Seaborn, NumPy
+
+
 
 🧼 Data Preprocessing
 Checked for missing values and data quality.
@@ -59,6 +70,7 @@ Converted date columns to datetime format.
 Extracted month/year for time-based analysis.
 
 Grouped, aggregated, and filtered data for visual storytelling.
+
 
 
 📈 Visualizations 
@@ -72,6 +84,7 @@ Grouped, aggregated, and filtered data for visual storytelling.
 📈Line Chart: Monthly Sales Trend ➡️ Detects trends and seasonality. Essential for forecasting, budgeting, and strategy planning.
 
 🔵Scatter Plot: Profit vs Sales by Category ➡️ Helps identify whether high sales correlate with high profits. 
+
 
 
 🔍 Key Insights
